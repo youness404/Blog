@@ -1,0 +1,42 @@
+<footer class="w-full bg-gray-300 text-white shadow-lg shadow-md mt-12 absolute bottom-0">
+    <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
+      <div class="flex items-center justify-between gap-3 max-md:flex-col">
+        <div class="text-base-content text-xl font-bold">
+          <span class="text-4xl font-bold text-yellow-500 hover:text-yellow-400 cursor-pointer">Blogify</span>
+        </div>
+        <!-- Navigation -->
+        <nav class="flex items-center gap-10">
+          <a href="{% url 'signin' %}" class=" font-medium text-xl text-decoration-none">Blogs</a>
+          <a href="#" class=" font-medium text-xl text-decoration-none">Contact</a>
+          <a href="#" class=" font-medium text-xl text-decoration-none">About</a>
+        </nav>
+        <!-- Social Icons -->
+        <div class="text-base-content flex h-5 gap-6 items-center">
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook text-3xl text-blue-500"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram text-3xl text-pink-500"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fa-brands fa-twitter text-3xl text-blue-500"></i>
+          </a>
+          <a href="#" aria-label="Github">
+            <i class="fa-brands fa-github text-3xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-dark">
+      <div class="text-base-content text-center text-base">
+        &copy;2026
+        <a href="{% url 'home' %}" class="text-primary text-decoration-none">Blogify</a>
+        
+        <br class="md:hidden" />
+        Made With <span class="text-red-500 text-2xl">❤</span> for a better web.
+      </div>
+    </div>
+  </footer>
